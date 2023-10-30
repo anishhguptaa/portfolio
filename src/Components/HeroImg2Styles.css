@@ -27,10 +27,14 @@
 }
 .hero-img h1{
     font-size: 2.4rem;
+    margin-bottom: 1rem;
 }
-.hero-img p{
+.text{
     font-size: 1.4rem;
     text-align: center;
+}
+.text2{
+    font-size: 1.3rem;
 }
 @media screen and (max-width: 640px){
     .hero-img h1{

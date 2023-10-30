@@ -7,7 +7,9 @@ export class HeroImg2 extends Component {
     <div className="hero-img">
         <div className="heading">
             <h1>{this.props.heading}</h1>
-            <p>{this.props.text}</p>
+            <p className="text">{this.props.text}</p>
+            {/* {this.props.text2 && <p className="text2">{this.props.text2}</p>} */}
+            <p className="text2">{this.props.text2}</p>
         </div>
     </div>
     )

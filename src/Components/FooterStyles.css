@@ -1,15 +1,17 @@
 .footer{
-    padding: 4rem 0 2rem 0;
+    padding: 4rem 0 1rem 0;
     background-color: rgba(18, 18, 18, 0.8);
+    color: white;
 }
+
 .footer-container{
     max-width: 1140px;
     margin: auto;
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    /* row-gap: 20px; */
     column-gap: 20px;
 }
+
 .left, .right{
     height: 100%;
     max-width: 100%;
@@ -17,18 +19,25 @@
     flex-direction: column;
     padding: 1rem;
 }
-.location{
+
+.elements{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    padding-bottom: 0.4rem;
+}
+
+.location, .phone, .mail{
     display: flex;
     flex-direction: row;
 }
-.socials{
-    margin-top: 1rem;
-}
+
 h4{
     font-size: 1.4rem;
     padding-bottom: 0.7rem;
     white-space: nowrap;
 }
+
 p{
     font-size: 1.1rem;
 }
