@@ -71,7 +71,7 @@ const AboutTimeline = () => {
                     return(
                         <VerticalTimelineElement
                             className="vertical-timeline-element--work"
-                            date={value.date}
+                            // date={value.date}
                             contentArrowStyle={arrowStyle}
                             contentStyle={eduElementStyle}
                             iconStyle={eduIconStyle}

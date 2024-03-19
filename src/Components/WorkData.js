@@ -1,7 +1,7 @@
 const WorkData=[
     {
-        title:"Jr. AI Engineer",
-        company:"Listed",
+        title:"AI Engineer",
+        company:"OpeninApp",
         location:"Bengaluru",
         date:"August 2023 - Present"
     },
